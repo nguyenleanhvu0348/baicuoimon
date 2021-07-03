@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Sigmar One', cursive;
+}
+.wrapper{
+	width: 100%;
+	background: linear-gradient(white,black);
+}
+.container1{
+	width: 1000px;
+	margin: 0 auto;
+}
+.header{
+	width: 80%;
+	height: 100px;
+	background: rgba(220,255,160,1.00);
+	margin: 0 auto
+}
+.Logo{
+	width: 30%;
+	height: 100%;
+/*	background: ;*/
+	float: left;
+	margin-top: 0px;
+}
+.menu{
+	width: 70%;
+	background: ;
+	float: right;
+}
+.menu ul {
+	list-style: none;
+	text-align: right;
+	
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 60px;
+	line-height: 100PX;
+}
+.menu ul li a{
+	
+	font-weight: 6;
+	font-size: 30px;
+	text-decoration: none;
+	color: rgba(46,180,255,1.00);
+	transition-duration: 0.5s;
+}
+.menu ul li a:hover{
+	color: rgba(255,91,91,1.00);
+}
+.chandung{
+	float: right;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+.thongtincanhan{
+	width: 500px;
+	float: right;
+	margin-top: -500px;
+	margin-right: 300px;
+	border: 2px null red;
+}
+.thongtincanhan a{
+	font-size: 40px;
+}
+.kynang{
+	margin-left: 300px;
+	margin-top: 150px;
+}
+.kynang1{
+	float: right;
+	width: 400px;
+	margin-right: 300px;
+	margin-top: 250px;
+/*	background: red;*/
+}
+.kynang1 a{
+	font-size: 40px;
+}
+.sp1{
+	width: 800px;
+}
+.sp1 hover{
+	width: 700px;
+}
+.sp2{
+	width: 800px;
+	float: right;
+	margin-top: 50px;
+}
+.sp3{
+	width: 800px;
+	margin-top: 50px;
+}
+.sanpham p{
+	font-size: 40px;
+	margin-top: 200px;
+	margin-bottom: 60px;
+	margin-left: 500px;
+	
+}
+.footer{
+	width: 100%;
+	height: 200px;
+	background: rgba(39,34,34,0.87);
+	list-style: none;
+	display: flex;
+}
+.footer ul{
+	list-style: none;
+	justify-content: center;
+	margin-left: 600px;
+	margin-top: -100px;
+}
+.footer ul li a{
+	text-decoration: none;
+/*	text-transform: uppercase;*/
+	color: white;
+}
+.footer img{
+	margin-left: 450px;
+	margin-top: 50px;
+}
+.container2{
+	padding-top: 100px;
+}
+.container2 h1 {
+	font-size: 20px;
+	padding-left: 100px;
+	color: aliceblue;
+}
+.container2 h2{
+	font-size: 20px;
+	padding-left: 80px;
+	color: aliceblue
+}
+.kinhnghiem{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 200px
+}
+.hinh1{
+	width: 200px;
+	float: left;
+	margin-bottom: 50px;
+	margin-top: -100px;
+	margin-left: 70px
+}
+.hinh2{
+	width: 200px;
+	margin-left: 850px;
+	margin-bottom: -100px
+}
